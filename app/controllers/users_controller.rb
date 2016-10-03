@@ -3,7 +3,7 @@ class UsersController < ApplicationController
 
 def show
   @user = current_user
-  # @items = @user.items
+  # @wikis = @user.wikis
 end
 
 end

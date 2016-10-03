@@ -1,0 +1,8 @@
+<%= content_tag :div, class: 'media', id: "wiki-#{wiki.id}" do %>
+   <div class="media-body">
+     <small>
+         <%= link_to "Delete", [wiki], method: :delete, remote: true %>
+     </small>
+     <p><%= wiki.body %></p>
+   </div>
+<% end %>
